@@ -1,0 +1,220 @@
+@media (max-width: 480px) {
+
+
+
+    .navbar {
+        height: 35px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav-logo {
+        height: 25px;
+        width: 100px;
+    }
+
+    .logo {
+        background-image: url(amazon_logo.png);
+        height: 30px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .nav-adress {
+        width: 95px;
+        height: 20px;
+        font-size: .6em;
+    }
+
+    .ad1 {
+        color: #CCCCCC;
+        font-size: .6rem;
+        margin-left: 0px;
+    }
+
+    .nav-search {
+        width: 50%;
+        height: 20px;
+        /* padding-left: 5px */
+    }
+
+    .select {
+        background-color: #f3f3f3;
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: none;
+        height: 100%;
+
+    }
+
+    .search-inp {
+        width: 100%;
+        font-size: .6rem;
+        border: none;
+        height: 90%;
+        outline: none;
+        padding-left: 5px;
+    }
+
+    .search-icon {
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .7rem;
+        background-color: rgb(255, 153, 0);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: #0f1111;
+        height: 100%;
+    }
+
+    .signin {
+        width: 115px;
+        height: 100%;
+        padding-left: 5px
+    }
+
+    span {
+        font-size: .5rem;
+    }
+
+    .nav-sec {
+        font-weight: 700;
+        font-size: .6rem;
+    }
+
+    .nav-return {
+        width: 75px;
+        height: 100%;
+        padding-left: 5px
+    }
+
+    .nav-cart {
+        font-size: .6rem;
+        width: 70px;
+    }
+
+    .nav-cart i {
+        font-size: 15px;
+    }
+
+    .deals {
+        display: none;
+    }
+
+    .container2 {
+        justify-content: start;
+    }
+
+    .options {
+        width: 70%;
+        font-size: .6rem;
+    }
+
+    .options p {
+        display: inline;
+        margin-left: 5px;
+    }
+
+    .mainContainer {
+        background-image: url(hero_image.jpg);
+        height: 165px;
+        background-size: cover;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: transparent;
+        position: relative;
+        top: -60px;
+
+    }
+
+    .box {
+
+        height: 150px;
+        background-color: white;
+        padding: 5px;
+        width: 115px;
+
+    }
+
+    .boxC h2 {
+        font-size: .8rem;
+    }
+
+    .boximg {
+        height: 100px;
+        width: 100px;
+    }
+
+    .boxC {
+        height: 100%;
+        width: 100%;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .cont2 .ul {
+        padding: 25px;
+    }
+
+    .cont2 a {
+        font-size: .6rem;
+
+    }
+
+    .product-cart {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .product-img {
+        width: 80%;
+        height: 55%;
+    }
+
+    .buy-product {
+        width: 80%;
+        height: 50vh;
+
+    }
+
+    .clothes-products {
+
+        flex-direction: column;
+
+    }
+
+    .product {
+        width: 90%;
+        height: 55vh;
+        border-radius: 5px;
+        background-color: rgba(173, 173, 173, 0.767);
+        margin: 20px auto;
+    }
+
+    .clothes-catogory {
+        margin: auto;
+        margin-top: 10px;
+        width: 98%;
+        height: 15vh;
+    }
+
+    .clothes-catogory h1 {
+
+        top: 40px;
+    }
+
+
+}
